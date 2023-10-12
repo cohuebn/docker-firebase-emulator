@@ -1,0 +1,11 @@
+version: "3.8"
+services:
+  emulators:
+    image: firebase-emulators
+    ports:
+      - "4400:4400" # Emulator Hub
+      - "4500:4500" # Other reserved port
+      - "9099:9099" # Auth
+      - "8083:8083" # UI
+    environment:
+      - PROJECT=demo-usage
