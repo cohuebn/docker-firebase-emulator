@@ -7,6 +7,8 @@ This example includes:
 2. Firestore with custom access rules
 3. Pub/Sub
 
+To run this example, run `docker compose up` from this directory.
+
 ## How does it work?
 
 1. See the [docker-compose.yml](./docker-compose.yml) file

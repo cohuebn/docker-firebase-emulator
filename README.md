@@ -21,3 +21,7 @@ you can add your own configuration file and mount it to emulate additional servi
   file. Additionally, the directory can contain referenced config, such as Firestore rules
 - For an example of mounting custom config, see the [multiple-services-with-rules](./examples/multiple-services-with-rules/)
   example.
+
+## Examples
+
+Examples of how to use this image be found in the [examples](https://github.com/cohuebn/docker-firebase-emulator/tree/main/examples) directory of [the Github repository for this project](https://github.com/cohuebn/docker-firebase-emulator).
