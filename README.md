@@ -5,7 +5,9 @@ This can be used to setup Firebase emulation in your environment alongside other
 (e.g. Postgres, Mongo, etc.).
 
 This is useful when you want to develop an application using Firebase, but want a completely local
-environment running in Docker for testing
+environment running in Docker for testing.
+
+Source code for this image can be at [https://github.com/cohuebn/docker-firebase-emulator](https://github.com/cohuebn/docker-firebase-emulator)
 
 ## Configuration
 
