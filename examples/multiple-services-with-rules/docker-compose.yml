@@ -10,6 +10,6 @@ services:
       - "8085:8085" # PubSub
       - "8083:8083" # UI
     environment:
-      - PROJECT=demo-multiple-services
+      - GCP_PROJECT=demo-multiple-services
     volumes:
       - ${PWD}/config:/firebase

@@ -8,4 +8,4 @@ services:
       - "9099:9099" # Auth
       - "8083:8083" # UI
     environment:
-      - PROJECT=demo-usage
+      - GCP_PROJECT=demo-usage

@@ -16,4 +16,4 @@ RUN npm install -g firebase-tools
 # Initialize the project
 WORKDIR /firebase
 COPY ./ .
-CMD firebase emulators:start --project $PROJECT
+CMD firebase emulators:start --project $GCP_PROJECT
